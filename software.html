@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Software dell'Hydrometer</title>
+		<link href="style.css", rel="stylesheet", type="text/css">
+	</head>
+	<body>
+		<div class="topbar">
+			<a href="javascript:void(0)" class="topbtn">
+				<img class="topimage" src="menu-icon.png">
+			</a>
+			<div class="topcontent">
+				<a href="index.html">Home</a>
+				<a href="hardware.html">Hardware</a>
+				<a href="software.html">Software<!-- secret.html --></a>
+				<a href="container.html">Contenitore</a>
+				<a href="components.html">Lista componenti</a>
+			</div>
+		</div>
+		<h2>Software</h2>
+		<div class="img_contain">
+			<p>Per controllare tutti i componenti del nostro misuratore d'acqua abbiamo scritto un codice per Arduino Uno. Questo codice è in un linguaggio apposito per la nostra scheda sviluppato proprio per tutte le schede di Arduino.</p>
+			<img src="arduino_screenshot.png" width="100%">
+		</div>
+		<p>Quando l'acqua passa attraverso il tubo, il contatore rileva quanta acqua è passata per il tubo e invia segnali alla scheda, che li elabora mostrando il risultato sullo schermo LCD.</p>
+		<p>Se non passa acqua per più di 30 secondi, il conteggio viene azzerato, attendendo ad un ritorno dello scorrimento dell'acqua.</p>
+		<p>Il codice è open source e si può visualizzare cliccando <a href="sw_download.ino">qui</a>.</p>
+	</body>
+</html>
